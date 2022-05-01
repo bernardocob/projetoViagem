@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media='screen and (max-width: 768px)' href="768px.css">
+    <link rel="stylesheet" media='screen and (max-width: 450px)' href="450px.css">
+    <link rel="stylesheet" media='screen and (max-width: 320px)' href="320px.css">
+    <script src="https://kit.fontawesome.com/c24ab235c2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="navbar">
+        <div id="navbarContainer">
+            <div id = 'links'>
+                <a href="#logo"><h1><i class="fa-solid fa-location-dot"></i>Logo</h1></a>
+            </div>
+        </div>
+    </section>
+    <section id="tabsArea">
+        <div class="tabs">
+            <div class="tabsHead">
+                <span class="tabsToggle isActive"><i class="fa-solid fa-plane"></i>Flight</span>
+                <span class="tabsToggle"><i class="fa-solid fa-hotel"></i>Hotel</span>
+                <span class="tabsToggle"><i class="fa-solid fa-car"></i>Rental</span>
+            </div>
+            <div class="tabsBody">
+                <div class="tabsContent isActive">
+                    <h2 class="tabsTittle">Travel the world with us</h2>
+                    <div class="inputForm">
+                        <div class="inputContainer">
+                            <label for="from">From</label>
+                            <input type="text" name="from" id="fromInput" placeholder='Departing from'>
+                        </div>
+                        <div class="inputContainer">
+                            <label for="to">To</label>
+                            <input type="text" name="to" id="toInput" placeholder="Arriving at">
+                        </div>
+                    </div>
+                    <button class="tabsButton">Search and find dates</button>
+                </div>
+                <div class="tabsContent">
+                    <h2 class="tabsTittle">2 tab</h2>
+                </div>
+                <div class="tabsContent">
+                    <h2 class="tabsTittle">3 tab</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="area">
+        <section id='ofertas'>
+            <div id="chamada">
+                <h2>Good Offers Right Now</h2>
+                <p>Up to <Strong>50%</Strong> discount.</p>
+            </div>
+            <div id='grids'>
+                <div id='gridFora'>
+                    <a id='containerCinqueTerre' href="#1">
+                        <img src="imgs/cinqueterre.jpg" alt="" class='imgGrande'>
+                        <figcaption>Cinque Terre</figcaption>
+                    </a>
+                    <div id="gridDentro">
+                        <a id='containerDentro' href="#2">
+                            <img src="imgs/newyork.jpg" alt="" class="imgPequena">
+                            <figcaption>New York</figcaption>
+                        </a>
+                        <a id='containerDentro' href="#3"> 
+                            <img src="imgs/sanfran.jpg" alt="" class="imgPequena">
+                            <figcaption>San Francisco</figcaption>
+                        </a>
+                        <a id='containerDentro' href="#4" >
+                            <img src="imgs/pisa.jpg" alt="" class="imgPequena">
+                            <figcaption>Pisa</figcaption>
+                        </a>
+                        <a id='containerDentro' href="#5" >
+                            <img src="imgs/paris.jpg" alt="" class="imgPequena">
+                            <figcaption>Paris</figcaption>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="explorar">
+            <div id="chamada">
+                <h2>Explore Nature</h2>
+                <p>Travel with us and see nature at its finest.</p>
+            </div>
+            <div id="gridExplorar">
+                <div id="explorarArea">
+                    <img src="imgs/ocean.jpg" alt="">
+                    <div id="textArea">
+                        <h2>West Coast, Norway</h2>
+                        <span>Roundtrip from $79</span>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="#tickets">Buy Tickets</a>
+                    </div>
+                </div>
+                <div id="explorarArea">
+                    <img src="imgs/mountains.jpg" alt="">
+                    <div id='textArea'>
+                        <h2>Mountains, Austria</h2>
+                        <span>One-day from $39</span>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="#tickets">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="inscrever">
+            <div id="inscreverChamada">
+                <h2>Get the best offers first!</h2>
+                <p>Join our newsletter.</p>
+            </div>
+            <div id="inscreverForm">
+                <label for="email">E-mail
+                    <input type="email" name="email" id="" placeholder="Your Email address">
+                </label>
+                <a href="#Subscribe">Subscribe</a>
+            </div>
+        </section>
+        <section id='contato'>
+            <div id="contatoChamada">
+                <h2>Contact</h2>
+                <p>Let us book your next trip!</p>
+            </div>
+            <div id="contatoInfo">
+                <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+            </div>
+            <div id="contatoForm">
+                <input type="text" name="" id="inputText" placeholder="Name">
+                <input type="email" name="" id="inputEmail" placeholder="Email">
+                <input type="text" name="" id="inputMessage" placeholder="Message">
+            </div>
+            <a href="#sendMessage">SEND MESSAGE</a>
+        </section>
+        <section id="footer">
+            <h3>Find Us On</h3>
+            <div id="footerLinks">
+                <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#snapchat"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="#pinterest"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Powered by <a href="https://github.com/bernardocob">bernardocob</a></p>
+        </section>
+    </div>
+    <script src="tab.js"></script>
+</body>
+</html>

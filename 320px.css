@@ -1,0 +1,21 @@
+.tabsToggle{
+    width: 33.33%;
+}
+.tabsContent{
+    padding: 1em;
+}
+
+.tabsTittle{
+    font-size: 1.3em;
+}
+
+.inputContainer label{
+    font-size: 0.9em;
+}
+
+#containerCinqueTerre{
+    width: 100%;
+}
+#containerDentro{
+    width: 100%;
+}

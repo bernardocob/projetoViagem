@@ -1,0 +1,55 @@
+#navbarContainer{
+    padding: 1em 0.5em;
+}
+
+#tabsArea{
+    height: 100%;
+}
+.tabs{
+    height: 100%;
+    width: 100%;
+}
+.tabsHead{
+    width: 100%;
+    background-color: black;
+}
+.tabsToggle{
+    width: fit-content;
+    padding: 0.5em;
+}
+.inputForm{
+    display: block;
+}
+.tabsButton{
+    margin-top: 1em;
+}
+.tabsContent{
+    padding: 0.5em;
+}
+#gridFora{
+    display: block;
+    text-align: center;
+}
+#containerCinqueTerre{
+    width: 100%;
+}
+#containerDentro{
+    width: 99%;
+}
+#gridDentro{
+    display: block;
+    text-align: center;
+}
+#ofertas{
+    padding-top: 2em;
+}
+
+#containerDentro figcaption{
+    top: 87%;
+}
+#gridExplorar{
+    display: block;
+}
+#explorarArea{
+    margin: 1em 0;
+}
